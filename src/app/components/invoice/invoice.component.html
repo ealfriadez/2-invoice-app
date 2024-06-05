@@ -3,18 +3,10 @@
         <div class="card-header">
             <h2>Ejemplo Factura</h2>
         </div>            
-            <div class="card-body">
-                <div>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            Id: {{ invoice.id }}
-                        </li>
-                        <li class="list-group-item">
-                            Id: {{ invoice.name }}
-                        </li>
-                    </ul>            
-                </div>                
-    
+            <div class="card-body">       
+
+                <invoice-view [id]="invoice.id" [name]="invoice.name"></invoice-view>
+                
                 <div class="row my-3">
                     <div class="col">
                         <h3>Datos del cliente</h3>
