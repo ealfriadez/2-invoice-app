@@ -7,6 +7,7 @@ import { invoiceData } from '../data/invoice.data';
 })
 export class InvoiceService {
   private invoice: Invoice = invoiceData
+  
   constructor() { }
 
   getInvoice(): Invoice{
