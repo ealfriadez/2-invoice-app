@@ -25,13 +25,13 @@ export const invoiceData: any = {
              quantity: 5    
         },
         {
-            id: 1,
+            id: 2,
             product: 'Teclado mecanico TRONSMART',
             price: 100,
             quantity: 7
         },
         {
-            id: 1,
+            id: 3,
             product: 'Monitor SAMSUNG',
             price: 1500,
             quantity: 15
